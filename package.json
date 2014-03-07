@@ -1,7 +1,7 @@
 {
   "name": "hapi-db",
   "description": "An environment based NeDB/MongoDB database switcher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Ben Barclay",
   "repository": "git@github.com:blinkmobile/hapi-db.git",
   "main": "index.js",
@@ -14,7 +14,7 @@
   "devDependencies": {
     "hapi-nedb": "~0.0.1"
   },
-  "dependencies": {
+  "peerDependencies": {
     "hapi-mongodb": "~2.0.0"
   }
 }
